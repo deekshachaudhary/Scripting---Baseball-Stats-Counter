@@ -1,0 +1,12 @@
+1. Match the string "hello world" in a sentence
+   \bhello world\b
+
+2. Find all words in an input string that contain
+   a triple vowel.
+   \w+[aeiou]{3}\w+
+
+3. Match an input strinf that is entirely a flight
+   code, of the format AA#### where AA is a two-
+   letter uppercase airline code, and #### is a three
+   or four-digit flight number.
+   \b[A-Z]{2}\d{3,4}\b
